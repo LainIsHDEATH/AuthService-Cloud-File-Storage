@@ -1,0 +1,38 @@
+server:
+  port: 8081
+
+spring:
+  application:
+    name: auth-service
+
+  datasource:
+    url: jdbc:postgresql://localhost:5432/authDb
+    username: postgres
+    password: 5432
+
+  jpa:
+    hibernate:
+      ddl-auto: update
+    show-sql: true
+    properties:
+      hibernate:
+        format_sql: true
+
+  session:
+    store-type: redis
+    redis:
+      namespace: spring:session
+
+  data:
+    redis:
+      host: localhost
+      port: 6379
+
+  servlet:
+    session:
+      timeout: 30m
+
+logging:
+  level:
+    org.springframework.security: DEBUG
+    org.hibernate.SQL: DEBUG
