@@ -1,8 +1,8 @@
-package lain.projects.authservice.service;
+package lain.projects.cloudstorage.authservice.service;
 
-import lain.projects.authservice.model.User;
-import lain.projects.authservice.model.security.UserDetailsImpl;
-import lain.projects.authservice.repository.UserRepository;
+import lain.projects.cloudstorage.authservice.repository.UserRepository;
+import lain.projects.cloudstorage.model.User;
+import lain.projects.cloudstorage.model.security.UserDetailsImpl;
 import lombok.RequiredArgsConstructor;
 import org.springframework.http.HttpStatus;
 import org.springframework.security.core.userdetails.UserDetails;

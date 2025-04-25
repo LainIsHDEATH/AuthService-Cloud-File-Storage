@@ -1,4 +1,4 @@
-package lain.projects.authservice.model;
+package lain.projects.cloudstorage.model;
 
 import jakarta.persistence.*;
 import jakarta.validation.constraints.NotBlank;

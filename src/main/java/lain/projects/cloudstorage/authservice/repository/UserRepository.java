@@ -1,6 +1,6 @@
-package lain.projects.authservice.repository;
+package lain.projects.cloudstorage.authservice.repository;
 
-import lain.projects.authservice.model.User;
+import lain.projects.cloudstorage.model.User;
 import org.springframework.data.jpa.repository.JpaRepository;
 import org.springframework.stereotype.Repository;
 

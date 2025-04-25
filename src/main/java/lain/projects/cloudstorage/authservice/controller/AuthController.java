@@ -1,12 +1,12 @@
-package lain.projects.authservice.controller;
+package lain.projects.cloudstorage.authservice.controller;
 
 import jakarta.servlet.http.HttpServletRequest;
 import jakarta.validation.Valid;
-import lain.projects.authservice.dto.SignInRequest;
-import lain.projects.authservice.dto.SignUpRequest;
-import lain.projects.authservice.dto.UserResponse;
-import lain.projects.authservice.model.User;
-import lain.projects.authservice.service.UserService;
+import lain.projects.cloudstorage.authservice.dto.SignInRequest;
+import lain.projects.cloudstorage.authservice.dto.SignUpRequest;
+import lain.projects.cloudstorage.authservice.dto.UserResponse;
+import lain.projects.cloudstorage.authservice.service.UserService;
+import lain.projects.cloudstorage.model.User;
 import lombok.RequiredArgsConstructor;
 import org.springframework.http.HttpStatus;
 import org.springframework.http.ResponseEntity;

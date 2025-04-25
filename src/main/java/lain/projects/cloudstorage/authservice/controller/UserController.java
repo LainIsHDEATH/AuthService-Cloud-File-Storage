@@ -1,7 +1,7 @@
-package lain.projects.authservice.controller;
+package lain.projects.cloudstorage.authservice.controller;
 
-import lain.projects.authservice.dto.UserResponse;
-import lain.projects.authservice.model.security.UserDetailsImpl;
+import lain.projects.cloudstorage.authservice.dto.UserResponse;
+import lain.projects.cloudstorage.model.security.UserDetailsImpl;
 import org.springframework.http.ResponseEntity;
 import org.springframework.security.core.annotation.AuthenticationPrincipal;
 import org.springframework.web.bind.annotation.GetMapping;

@@ -1,6 +1,6 @@
-package lain.projects.authservice.model.security;
+package lain.projects.cloudstorage.model.security;
 
-import lain.projects.authservice.model.User;
+import lain.projects.cloudstorage.model.User;
 import lombok.RequiredArgsConstructor;
 import org.springframework.security.core.GrantedAuthority;
 import org.springframework.security.core.userdetails.UserDetails;
@@ -26,6 +26,8 @@ public class UserDetailsImpl implements UserDetails, Serializable {
     public String getUsername() {
         return this.user.getUsername();
     }
+
+    public Long getId() {return this.user.getId();}
 
     @Override
     public boolean isAccountNonExpired() {

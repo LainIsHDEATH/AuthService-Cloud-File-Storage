@@ -1,4 +1,4 @@
-package lain.projects.authservice.config;
+package lain.projects.cloudstorage.authservice.config;
 
 import jakarta.servlet.http.HttpServletResponse;
 import org.springframework.context.annotation.Bean;
